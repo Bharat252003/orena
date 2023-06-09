@@ -1,0 +1,79 @@
+:root{
+    --prime:#41807C;
+    --second:white;
+    --bg-light:#5EA6A1;
+    --bg-yellow:#F1C50E;
+    --bg-black:#1E1E1E;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.btn_primary{
+    border-radius:50% ;
+    color:var(--secondary);
+    background-color: var(--prime);
+    padding: 10px;
+}
+.btn_yellow{
+    color: var(--bg-black);
+    background-color: var(--bg-yellow);
+    border-radius:50% ;
+    padding: 10px;
+}html{
+    font-size: 62.5%;
+}
+.text-primary{
+    color: var(--prime);
+}
+.experts{
+    background-color: var(--prime);
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border: 0.7rem solid white;
+    margin-right: 1rem;
+}
+.card-container{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+.expert-card{
+    flex-basis: 30%;
+    border-radius: 10%;
+    padding: 2.5rem;
+    color: var(--second);
+}
+.msg{
+    font-size: 2rem;
+}
+.center{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.expert-card:first-child{
+    background-color: var(--bg-black);
+    /* background-color: white; */
+    
+}
+.expert-card:nth-child(2){
+    background-color: var(--bg-yellow);
+}
+.expert-card:nth-child(3){
+    background-color: var(--bg-light);
+}
+.name{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.desig{
+    font-size: 2.5rem;
+    opacity: 0.7;
+}
