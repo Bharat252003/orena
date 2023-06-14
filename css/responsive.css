@@ -1,25 +1,38 @@
 /* for tablet */
-@media screen and (min-width:500px) {
+@media screen and (max-width:1000px) {
     html{
         font-size: 50%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    html{
+        font-size: 50%;
+    }
+    .rs-dir-col,.ab-1,.contact-container{
+        flex-direction: column;
+    }
+    .rs-100{
+        width: 100%;
+    }
+    .ab-2{
+        flex-direction: column-reverse;
+    }
+    .expert-card{
+        flex-basis: 50%;
     }
     
 }
 @media screen and (max-width:768px) {
     html{
-        font-size: 45%;
+        font-size: %;
     }
     
 }
-@media screen and (min-width:1000px) {
+
+@media screen and (max-width:500px) {
     html{
         font-size: 50%;
-    }
-    
-}
-@media screen and (min-width:500px) {
-    html{
-        /* font-size: 50%; */
     }
     
 }

@@ -54,9 +54,11 @@
 
                 <div class="section d-flex align-items-center h-100 p-5">
                   <div class="container d-flex justify-content-center">
+                    
                     <div id="mySlider" class="carousel slide w-75 " data-bs-ride="carousel">
+                        <img src="img/Design.png" alt="" class="slider-bg">
                       <div id="carouselExampleSlidesOnly slider" class="carousel slide" data-ride="carousel">
-                          <div class="carousel-inner cr-border">
+                          <div class="carousel-inner"> <!--add cr-border class to add borders-->
                             <div class="carousel-item active " >
                               <img class="d-block  w-100 mx-auto   cr-img" src="img/191212182124-04-singapore-buildings.jpg" alt="First slide">
                             </div>
@@ -75,10 +77,12 @@
             </div>
 
         </section>
+
+        <!-- about section start  -->
         <section class="about white-card ">
             <div class=" bg-white" >
-                <div class="ab-1 d-flex p-5">
-                    <img src="img/work.jpg" alt="" width="50%">
+                <div class="ab-1 d-flex p-5 "> 
+                    <img src="img/work.jpg" alt="" width="50%" class="rs-100" >
                     <div class="about-content">
                         <h2>Campus Drive</h2>
                         <p>At Orena Solutions, we offer customized training programs to prepare fresher candidates with the necessary technical and life skills required by the industry. Our curriculum is tailored based on company requirements, job descriptions, and eligibility criteria. We also provide support for campus recruitment in collaboration with our university partners, enhancing branding and facilitating the recruitment process. Additionally, we offer workshops, business incubation, and a comprehensive ecosystem to foster innovation and support career growth. Join us for a bright future filled with innovative roles and endless possibilities.</p>
@@ -93,11 +97,11 @@
                         <p>We offer assistance in setting up labs at universities by leveraging our industry connections and providing access to required technologies. Additionally, we conduct workshops to educate faculty members on the functioning of these technologies. Our comprehensive support includes assessing requirements, collaborating with industries, designing lab spaces, procuring equipment, training faculty members, and providing ongoing technical support. Some of the technologies we can help set up at universities include:</p>
                         <button class="btn-prime">Registration</button>
                     </div>
-                    <img src="img/work.jpg" alt="" width="50%">
+                    <img src="img/work.jpg" alt="" width="50%" class="rs-100">
                 </div>
 
                 <div class="ab-1 d-flex p-5">
-                    <img src="img/work.jpg" alt="" width="50%">
+                    <img src="img/work.jpg" alt="" width="50%" class="rs-100">
                     <div class="about-content">
                         <h2 class="text-prime">Expert Exchange</h2>
                         <p>Expert Exchange is a platform that facilitates the exchange of expertise between industry and academia. It serves as a mutually beneficial platform where professionals from renowned organizations are invited to share their knowledge and experience with aspiring individuals. These esteemed experts provide valuable insights and a wealth of knowledge, enriching the learning experience for the professionals of tomorrow.</p>
@@ -110,33 +114,35 @@
         </section>
 
         <section class="experts">
-            <h1 class="text-center">Testimonials</h1>
-            
-            <div class="card-container d-flex">
-                <div class="expert-card ">
-                    <div class="info center">
-                        <img class="profile-pic" src="img/expert.jpg" alt="">
-                        <div class="intro">
-                            <p class="name">Aesha</p>
-                            <p class="desig">CEO</p>
+            <div class="sub-con">
+
+                <h1 class="text-center">Testimonials</h1>
+                
+                <div class="card-container d-flex">
+                    <div class="expert-card ">
+                        <div class="info center">
+                            <img class="profile-pic" src="img/expert.jpg" alt="">
+                            <div class="intro">
+                                <p class="name">Aesha</p>
+                                <p class="desig">CEO</p>
+                            </div>
+                        </div>
+                        <div class="msg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iure maiores incidunt voluptates, libero fuga ullam deleniti beatae culpa quod, quae, facere reiciendis a. 
+                            
+                        </div>
+                    </div>
+                    <div class="expert-card">
+                        <div class="info center">
+                            <img class="profile-pic" src="img/expert.jpg" alt="">
+                            <div class="intro">
+                                <h2 class="name ">Aesha</h2>
+                                <p class="desig">CEO</p>
                         </div>
                     </div>
                     <div class="msg">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iure maiores incidunt voluptates, libero fuga ullam deleniti beatae culpa quod, quae, facere reiciendis a. 
-
-                    </div>
-                </div>
-                <div class="expert-card mx-5">
-                    <div class="info center">
-                        <img class="profile-pic" src="img/expert.jpg" alt="">
-                        <div class="intro">
-                            <h2 class="name ">Aesha</h2>
-                            <p class="desig">CEO</p>
-                        </div>
-                    </div>
-                    <div class="msg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iure maiores incidunt voluptates, libero fuga ullam deleniti beatae culpa quod, quae, facere reiciendis a. 
-
+                        
                     </div>
                 </div>
                 <div class="expert-card ">
@@ -149,18 +155,18 @@
                     </div>
                     <div class="msg">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iure maiores incidunt voluptates, libero fuga ullam deleniti beatae culpa quod, quae, facere reiciendis a. 
-
+                        
                     </div>
                 </div>
-
-                
-                
+                 
             </div>
 
+        </div><!--sub-con end-->
+            
         </section>
 
-        <section class="contact white-card">
-            <div class=" d-flex res-container" >
+        <section class="contact ">
+            <div class="contact-container d-flex white-card " >
 
                 <div class="contact-text">
                     <h2>
@@ -172,7 +178,7 @@
                         Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye.
                     </p>
                 </div>
-                <div class="contact-form">
+                <div class="contact-form rs-100">
                     <form action="" class="d-flex flex-column">
                         <input type="text" name="" id="" placeholder="Enter your name">
                         <input type="email" name="" id="" placeholder="Enter your email">
