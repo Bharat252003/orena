@@ -5,7 +5,23 @@
     }
     
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
+    html{
+        font-size: 40%;
+    }
+    .contact-form{
+        width: 50%;
+    }
+    
+}
+
+/* @media screen and (max-width:500px) {
+    html{
+        font-size: 50%;
+    }
+    
+} */
+@media screen and (max-width:600px) {
     html{
         font-size: 50%;
     }
@@ -15,24 +31,32 @@
     .rs-100{
         width: 100%;
     }
+    .white-card{
+        padding: 3rem;
+        margin: 2rem;
+    }
+    .w_75{
+        width: 80vw;
+    }
+    .cr-img{
+        height: 60vw;
+    }
+    
     .ab-2{
         flex-direction: column-reverse;
+    }
+    .ab-1 .about-content{
+        margin: 0;
+    }
+    .ab-2 .about-content{
+        margin: 0;
     }
     .expert-card{
         flex-basis: 50%;
     }
-    
-}
-@media screen and (max-width:768px) {
-    html{
-        font-size: %;
-    }
-    
-}
 
-@media screen and (max-width:500px) {
-    html{
-        font-size: 50%;
+    .contact-form{
+        padding: 1.8rem;
     }
     
 }
