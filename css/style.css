@@ -165,8 +165,9 @@ nav a:hover{
     border: 0.7rem solid white;
     margin-right: 1rem;
 }
-.card-container{
+.testimonial-cards{
     /* width: 70%; */
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -188,15 +189,13 @@ nav a:hover{
     /* justify-content: center; */
 
 }
-.expert-card:first-child{
-    background-color: var(--bg-black);
-    /* background-color: white; */
-    
+.expert-card:first-child,.testimon-slider .carousel-item:nth-child(1).expert-card{
+    background-color: var(--bg-black);   
 }
-.expert-card:nth-child(2){
+.expert-card:nth-child(3n+2),.testimon-slider .carousel-item:nth-child(2) .expert-card{
     background-color: var(--bg-yellow);
 }
-.expert-card:nth-child(3){
+.expert-card:nth-child(3n+3),.testimon-slider .carousel-item:nth-child(3) .expert-card{
     background-color: var(--bg-light);
 }
 .name{
@@ -207,6 +206,36 @@ nav a:hover{
     font-size: 2.5rem;
     opacity: 0.7;
 }
+.carousel-indicators{
+    position: relative;
+}
+.carousel-indicators li{
+    height: 2rem;
+    width: 2rem;
+}
+.testimon-slider{
+    display: none;
+}
+/* carousel indicator with different colors*/
+/* .carousel-indicators li:nth-child(1){
+    background-color: var(--bg-black);
+}
+.carousel-indicators li:nth-child(2){
+    background-color: var(--bg-yellow);
+}
+.carousel-indicators li:nth-child(3){
+    background-color: var(--bg-light);
+}
+.carousel-indicators li:nth-child(1).active{
+    background-color: var(--bg-black);
+}
+.carousel-indicators li:nth-child(2).active{
+    background-color: var(--bg-yellow);
+
+}   
+.carousel-indicators li:nth-child(3).active {
+  background-color: var(--bg-light); 
+} */
 
 /* contact form css */
 .contact{

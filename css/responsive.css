@@ -54,6 +54,13 @@
     .expert-card{
         flex-basis: 50%;
     }
+    .testimonial-cards{
+        display: none;
+    }
+    .testimon-slider{
+        display: initial;
+        /* visibility: non; */
+    }
 
     .contact-form{
         padding: 1.8rem;
