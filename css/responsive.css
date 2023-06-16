@@ -3,6 +3,9 @@
     html{
         font-size: 50%;
     }
+    .expert-card p{
+        font-size: 2rem;
+    }
     
 }
 @media screen and (max-width:800px) {
@@ -51,6 +54,9 @@
     .ab-2 .about-content{
         margin: 0;
     }
+    .about h2{
+        margin-top: 1rem;
+    }
     .expert-card{
         flex-basis: 50%;
     }
@@ -64,6 +70,17 @@
 
     .contact-form{
         padding: 1.8rem;
+    }
+    .contact-text{
+        padding-right: 0;
+    }
+    .contact-text__heading{
+        margin-bottom: 3rem;
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    .contact-text__info{
+        font-size: 2rem;
     }
     
 }

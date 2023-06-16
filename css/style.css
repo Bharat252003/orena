@@ -62,8 +62,12 @@ section{
     box-shadow: 3px 4px 0px 0.5px var(--prime);
     border: none;
     padding: 0.8rem 3rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
+}
+.btn-prime:hover{
+    background-color: var(--prime);
+    box-shadow: 3px 4px 0px 0.5px var(--bg-yellow);
 }
 .btn-yellow{
     color: var(--bg-black);
@@ -150,12 +154,22 @@ nav a:hover{
     color: var(--prime);
     font-weight: 700;
 }
-
+.about__hr{
+    border: 1px solid #41807c;
+    margin: 4rem 0;
+    border-radius: 1rem;
+}
 
 
 /* testimonials */
 .experts{
     background-color: var(--prime);
+}
+.experts h2{
+    font-size: 5rem;
+    border-bottom: 0.5rem solid white;
+    margin-bottom: 3rem;
+    /* padding: 1rem; */
 }
 .profile-pic{
     border-radius: 50%;
@@ -179,6 +193,12 @@ nav a:hover{
     padding: 2.5rem;
     color: var(--second);
     margin: 1rem;
+}
+.expert-card p{
+    font-size: 1.6rem;
+}
+.expert-card .name{
+    font-size: 2.5rem;
 }
 .msg{
     font-size: 1.5rem;
@@ -240,6 +260,14 @@ nav a:hover{
 /* contact form css */
 .contact{
     justify-content: space-between;
+}
+.contact-text__heading{
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+.contact-text__info{
+    font-size: 2.5rem;
 }
 .contact-form{
     background-color: var(--bg-light);
